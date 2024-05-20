@@ -7,7 +7,6 @@ window.addEventListener("DOMContentLoaded", init);
 function init() {
 	// Get the recipes from localStorage
 	let recipes = getRecipesFromStorage();
-	console.log(recipes);
 	// Add each recipe to the <main> element
 	addRecipesToDocument(recipes);
 	// Add the event listeners to the form elements
